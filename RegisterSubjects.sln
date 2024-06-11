@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RegisterSubjects", "RegisterSubjects\", "{C29EDF96-A0B2-4D9D-9444-0B362E114CD5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{af8fb18e-32e4-41d3-a19b-37c1a9c34554}|RegisterSubject.Imp.Program.dll;{905e7d92-9aa3-4328-b568-4da978ea2bbd}|RegisterSubject.Imp.Student.dll;{1cad45c6-0bec-4e21-bef5-f8f67538de37}|RegisterSubject.Imp.Teacher.dll;{2a7dbaf6-1d74-4b37-a1be-16913ba0d970}|RegisterSubject.Imp.dll;{773D1B41-83AB-4FAB-936A-3E4F9AE21942}|RegisterSubject.DataProviderAccess.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50410"
+		Debug.AspNetCompiler.PhysicalPath = "RegisterSubjects\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50410\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50410"
+		Release.AspNetCompiler.PhysicalPath = "RegisterSubjects\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50410\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50410"
+		SlnRelativePath = "RegisterSubjects\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Services", "1. Services", "{EA6386C0-153A-445C-828D-D78B7BEF9263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Implementation", "2. Implementation", "{0B936A43-2759-418E-A51E-2805EC3E42D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DataAccess", "3. DataAccess", "{F35EA990-E987-49BE-BD30-0E634BD280B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSubject.Imp", "RegisterSubject.Imp\RegisterSubject.Imp.csproj", "{2A7DBAF6-1D74-4B37-A1BE-16913BA0D970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSubject.DataProviderAccess", "RegisterSubject.DataProviderAccess\RegisterSubject.DataProviderAccess.csproj", "{773D1B41-83AB-4FAB-936A-3E4F9AE21942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSubject.Imp.Program", "RegisterSubject.Imp.Program\RegisterSubject.Imp.Program.csproj", "{AF8FB18E-32E4-41D3-A19B-37C1A9C34554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSubject.Imp.Student", "RegisterSubject.Imp.Student\RegisterSubject.Imp.Student.csproj", "{905E7D92-9AA3-4328-B568-4DA978EA2BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterSubject.Imp.Teacher", "RegisterSubject.Imp.Teacher\RegisterSubject.Imp.Teacher.csproj", "{1CAD45C6-0BEC-4E21-BEF5-F8F67538DE37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C29EDF96-A0B2-4D9D-9444-0B362E114CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29EDF96-A0B2-4D9D-9444-0B362E114CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29EDF96-A0B2-4D9D-9444-0B362E114CD5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29EDF96-A0B2-4D9D-9444-0B362E114CD5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2A7DBAF6-1D74-4B37-A1BE-16913BA0D970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7DBAF6-1D74-4B37-A1BE-16913BA0D970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7DBAF6-1D74-4B37-A1BE-16913BA0D970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7DBAF6-1D74-4B37-A1BE-16913BA0D970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773D1B41-83AB-4FAB-936A-3E4F9AE21942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773D1B41-83AB-4FAB-936A-3E4F9AE21942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773D1B41-83AB-4FAB-936A-3E4F9AE21942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773D1B41-83AB-4FAB-936A-3E4F9AE21942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8FB18E-32E4-41D3-A19B-37C1A9C34554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8FB18E-32E4-41D3-A19B-37C1A9C34554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8FB18E-32E4-41D3-A19B-37C1A9C34554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8FB18E-32E4-41D3-A19B-37C1A9C34554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905E7D92-9AA3-4328-B568-4DA978EA2BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905E7D92-9AA3-4328-B568-4DA978EA2BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905E7D92-9AA3-4328-B568-4DA978EA2BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905E7D92-9AA3-4328-B568-4DA978EA2BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAD45C6-0BEC-4E21-BEF5-F8F67538DE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAD45C6-0BEC-4E21-BEF5-F8F67538DE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAD45C6-0BEC-4E21-BEF5-F8F67538DE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAD45C6-0BEC-4E21-BEF5-F8F67538DE37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C29EDF96-A0B2-4D9D-9444-0B362E114CD5} = {EA6386C0-153A-445C-828D-D78B7BEF9263}
+		{2A7DBAF6-1D74-4B37-A1BE-16913BA0D970} = {0B936A43-2759-418E-A51E-2805EC3E42D4}
+		{773D1B41-83AB-4FAB-936A-3E4F9AE21942} = {F35EA990-E987-49BE-BD30-0E634BD280B5}
+		{AF8FB18E-32E4-41D3-A19B-37C1A9C34554} = {0B936A43-2759-418E-A51E-2805EC3E42D4}
+		{905E7D92-9AA3-4328-B568-4DA978EA2BBD} = {0B936A43-2759-418E-A51E-2805EC3E42D4}
+		{1CAD45C6-0BEC-4E21-BEF5-F8F67538DE37} = {0B936A43-2759-418E-A51E-2805EC3E42D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D13EA9B8-38B8-4726-8AB6-51BDF123588B}
+	EndGlobalSection
+EndGlobal
